@@ -1,0 +1,50 @@
+Console.WriteLine("Задание 1.");
+double a, b;
+a = 25.4;
+b = 1;
+int i;
+for (i = 10; i <= 22; i++)
+{
+
+    b = (i * a);
+    Console.WriteLine(b);
+
+}
+Console.WriteLine("Задание 2.а");
+int b1 = 10; // число б
+int b11 = 1;
+if ((1 <= b1) & (b1 <= 10))
+{
+    for (i = 1; i <= b1; i++)
+    {
+        b11 = b11 * i;
+        Console.WriteLine(b11);
+    }
+}
+else
+{
+    Console.WriteLine("числе b, не  cоответствует цсловию 1 ≤ b ≤ 10");
+}
+Console.WriteLine("Задание 2.б");
+int b22 = 1;
+
+int b2 = 6; // число б
+int a2 = 4;
+
+for (i = a2; i <= b2; i++)
+{
+    b22 = b22 * i;
+    Console.WriteLine(b22);
+}
+Console.WriteLine("Задание 3");
+int f, s, t;
+f = 0;
+s = 0;
+t = 1;
+int n = 5;
+
+for (i = 1; i <= n; i++)
+{
+    i = f + s + t;
+    Console.WriteLine(i);
+}
