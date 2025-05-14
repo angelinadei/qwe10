@@ -1,0 +1,12 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        double result = 1 / (7.0 / 60.0); // Используем 7.0 и 60.0 для получения точного результата
+        Console.WriteLine($"Результат 1/(7/60) = {result}");
+        // Ожидание ввода перед закрытием консоли
+        Console.ReadLine();
+    }
+}
